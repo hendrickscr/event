@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_p2_assignment_group" label="Alert specified P2 assignment" language="en" table="x_885373_event_tes_custom_subflow_rules">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_p2_assignment_group</element>
+            <help/>
+            <hint/>
+            <label>Alert specified P2 assignment</label>
+            <language>en</language>
+            <name>x_885373_event_tes_custom_subflow_rules</name>
+            <plural>Alert specified P2 assignments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-01 23:14:40</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Alert specified P2 assignment</sys_name>
+            <sys_package display_value="Event Test" source="x_885373_event_tes">e66a354693b2311006c1ba7efaba1077</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Event Test">e66a354693b2311006c1ba7efaba1077</sys_scope>
+            <sys_update_name>sys_documentation_x_885373_event_tes_custom_subflow_rules_u_p2_assignment_group_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-04 15:02:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

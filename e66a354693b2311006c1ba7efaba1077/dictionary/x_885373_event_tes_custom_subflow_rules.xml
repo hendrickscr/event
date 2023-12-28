@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ee6288a693b6311006c1ba7efaba10df" label="Custom subflow rules" max_length="40" name="x_885373_event_tes_custom_subflow_rules" type="collection">
+        <element label="Alert Management Rule" max_length="32" name="alert_management_rule" reference="em_alert_management_rule" type="reference"/>
+        <element label="Short Description subflow" max_length="32" name="short_description_subflow" reference="sys_hub_flow" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Priority options" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Subflow" sequence="3" value="subflow"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Alert specified P1 assignment" max_length="200" name="u_p1_assignment_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="P1 assignment options" max_length="40" name="u_p1_assignment_options" type="string">
+            <choice>
+                <element inactive_on_update="false" label="User specified assignment" sequence="0" value="specific group"/>
+                <element inactive_on_update="false" label="Alert specified assignment" sequence="1" value="reference group"/>
+                <element inactive_on_update="false" label="Subflow" sequence="2" value="subflow"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="P1 description" max_length="2000" name="u_p1_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="P1 short description" max_length="200" name="u_p1_short_description" type="string"/>
+        <element attributes="encode_utf8=false" label="P1 subflow for assignment" max_length="32" name="u_p1_subflow_assignment" reference="sys_hub_flow" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Alert specified P2 assignment" max_length="200" name="u_p2_assignment_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="P2 assignment options" max_length="40" name="u_p2_assignment_options" type="string">
+            <choice>
+                <element inactive_on_update="false" label="User specified assignment" sequence="0" value="specific group"/>
+                <element inactive_on_update="false" label="Alert specified assignment" sequence="1" value="reference group"/>
+                <element inactive_on_update="false" label="Subflow" sequence="2" value="subflow"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="P2 description" max_length="2000" name="u_p2_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="P2 short description" max_length="200" name="u_p2_short_description" type="string"/>
+        <element attributes="encode_utf8=false" label="P2 subflow for assignment" max_length="32" name="u_p2_subflow_assignment" reference="sys_hub_flow" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Alert specified P3 assignment" max_length="200" name="u_p3_assignment_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="P3 assignment options" max_length="40" name="u_p3_assignment_options" type="string">
+            <choice>
+                <element inactive_on_update="false" label="User specified assignment" sequence="0" value="specific group"/>
+                <element inactive_on_update="false" label="Alert specified assignment" sequence="1" value="reference group"/>
+                <element inactive_on_update="false" label="Subflow" sequence="2" value="subflow"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="P3 description" max_length="2000" name="u_p3_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="P3 short description" max_length="200" name="u_p3_short_description" type="string"/>
+        <element attributes="encode_utf8=false" label="P3 subflow for assignment" max_length="32" name="u_p3_subflow_assignment" reference="sys_hub_flow" type="reference"/>
+        <element attributes="encode_utf8=false" label="Priority Subflow" max_length="32" name="u_priority_subflow" reference="sys_hub_flow" type="reference"/>
+        <element attributes="encode_utf8=false" label="User specified P1 assignment" max_length="32" name="u_specific_p1_assignment_group" reference="sys_user_group" type="reference"/>
+        <element attributes="encode_utf8=false" label="User specified P2 assignment" max_length="32" name="u_specific_p2_assignment_group" reference="sys_user_group" type="reference"/>
+        <element attributes="encode_utf8=false" label="User specified P3 assignment" max_length="32" name="u_specific_p3_assignment_group" reference="sys_user_group" type="reference"/>
+        <index name="index">
+            <element name="alert_management_rule"/>
+        </index>
+        <index name="index2">
+            <element name="short_description_subflow"/>
+        </index>
+        <index name="index3">
+            <element name="u_p1_subflow_assignment"/>
+        </index>
+        <index name="index4">
+            <element name="u_p2_subflow_assignment"/>
+        </index>
+        <index name="index5">
+            <element name="u_p3_subflow_assignment"/>
+        </index>
+        <index name="index6">
+            <element name="u_priority_subflow"/>
+        </index>
+        <index name="index7">
+            <element name="u_specific_p1_assignment_group"/>
+        </index>
+        <index name="index8">
+            <element name="u_specific_p2_assignment_group"/>
+        </index>
+        <index name="index9">
+            <element name="u_specific_p3_assignment_group"/>
+        </index>
+    </element>
+</database>

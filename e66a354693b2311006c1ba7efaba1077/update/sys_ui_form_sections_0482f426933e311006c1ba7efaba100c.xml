@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="0482f426933e311006c1ba7efaba100c" sys_domain="global" table="x_885373_event_tes_custom_subflow_rules" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-01 23:14:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4082f426933e311006c1ba7efaba1010</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_885373_event_tes_custom_subflow_rules" name="x_885373_event_tes_custom_subflow_rules" sys_domain="global" view="Default view">0482f426933e311006c1ba7efaba100c</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_885373_event_tes_custom_subflow_rules" sys_domain="global" view="Default view">9713c02a93b6311006c1ba7efaba1025</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-01 23:14:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-01 23:14:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c82f426933e311006c1ba7efaba1010</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_885373_event_tes_custom_subflow_rules" name="x_885373_event_tes_custom_subflow_rules" sys_domain="global" view="Default view">0482f426933e311006c1ba7efaba100c</sys_ui_form>
+            <sys_ui_section caption="Short Description" display_value="Short Description" name="x_885373_event_tes_custom_subflow_rules" sys_domain="global" view="Default view">c882b426933e311006c1ba7efaba1099</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-01 23:14:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-01 23:14:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0082f426933e311006c1ba7efaba1015</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_885373_event_tes_custom_subflow_rules" name="x_885373_event_tes_custom_subflow_rules" sys_domain="global" view="Default view">0482f426933e311006c1ba7efaba100c</sys_ui_form>
+            <sys_ui_section caption="Description" display_value="Description" name="x_885373_event_tes_custom_subflow_rules" sys_domain="global" view="Default view">8082b426933e311006c1ba7efaba109b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-01 23:14:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-01 23:14:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c82f426933e311006c1ba7efaba1018</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_885373_event_tes_custom_subflow_rules" name="x_885373_event_tes_custom_subflow_rules" sys_domain="global" view="Default view">0482f426933e311006c1ba7efaba100c</sys_ui_form>
+            <sys_ui_section caption="Assignment Group" display_value="Assignment Group" name="x_885373_event_tes_custom_subflow_rules" sys_domain="global" view="Default view">4882f426933e311006c1ba7efaba100b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-01 23:14:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_885373_event_tes_custom_subflow_rules</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-01 23:14:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0482f426933e311006c1ba7efaba100c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_885373_event_tes_custom_subflow_rules</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Event Test" source="x_885373_event_tes">e66a354693b2311006c1ba7efaba1077</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Event Test">e66a354693b2311006c1ba7efaba1077</sys_scope>
+            <sys_update_name>sys_ui_form_sections_0482f426933e311006c1ba7efaba100c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-01 23:14:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

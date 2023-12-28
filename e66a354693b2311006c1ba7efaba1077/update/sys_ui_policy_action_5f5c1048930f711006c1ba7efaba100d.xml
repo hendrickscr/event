@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>u_priority_subflow</field>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 13:29:09</sys_created_on>
+        <sys_id>5f5c1048930f711006c1ba7efaba100d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_priority_subflow</sys_name>
+        <sys_package display_value="Event Test" source="x_885373_event_tes">e66a354693b2311006c1ba7efaba1077</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Test">e66a354693b2311006c1ba7efaba1077</sys_scope>
+        <sys_update_name>sys_ui_policy_action_5f5c1048930f711006c1ba7efaba100d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 13:29:09</sys_updated_on>
+        <table>x_885373_event_tes_custom_subflow_rules</table>
+        <ui_policy display_value="Show / hide Priority subflow">3b1cd0cc9343711006c1ba7efaba10a0</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>
